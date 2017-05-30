@@ -1,52 +1,23 @@
 <?php
 defined('BASEPATH') OR exit('No direct script access allowed');
 ?>
-    <!--home start-->
-    
-    <div id="home">
-        <div class="headerLine">
-    <div id="menuF" class="default">
-        <div class="container">
-            <div class="row">
-                <div class="logo col-md-4">
-                    <div>
-                        <a href="#">
-                            <img src="assets/images/logo.png">
-                        </a>
-                    </div>
-                </div>
-                <div class="col-md-8">
-                    <div class="navmenu"style="text-align: center;">
-                        <ul id="menu">
-                            <li class="active" ><a href="#home">Home</a></li>
-                            <li><a href="#about">About</a></li>
-                            <li><a href="#project">Projects</a></li>
-                            <li><a href="#news">News</a></li>
-                            <li class="last"><a href="#contact">Contact</a></li>
-                            <!--li><a href="#features">Features</a></li-->
-                        </ul>
-                    </div>
-                </div>
-            </div>
-        </div>
-    </div>
         <div class="container">
             <div class="row wrap">
                 <div class="col-md-12 gallery"> 
                         <div class="camera_wrap camera_white_skin" id="camera_wrap_1">
                             <div data-thumb="" data-src="assets/images/slides/blank.gif">
                                 <div class="img-responsive camera_caption fadeFromBottom">
-                                    <h2>We listen.</h2>
+                                    <h2>Construire.</h2>
                                 </div>
                             </div>
                             <div data-thumb="" data-src="assets/images/slides/blank.gif">
                                 <div class="img-responsive camera_caption fadeFromBottom">
-                                    <h2>We discuss.</h2>
+                                    <h2>Amménager.</h2>
                                 </div>
                             </div>
                             <div data-thumb="" data-src="assets/images/slides/blank.gif">
                                 <div class="img-responsive camera_caption fadeFromBottom">
-                                    <h2>We develop.</h2>
+                                    <h2>Améliorer.</h2>
                                 </div>
                             </div>
                         </div><!-- #camera_wrap_1 -->
@@ -58,12 +29,12 @@ defined('BASEPATH') OR exit('No direct script access allowed');
             <div class="row">
                 <div class="col-md-4 project">
                     <h3 id="counter">0</h3>
-                    <h4>Awesome Projects</h4>
+                    <h4>Projets réalisés</h4>
                     <p>Dolor sit amet, consectetur adipiscing elit quisque tempus eget diam et lorem a laoreet phasellus ut nisi id leo molestie. </p>
                 </div>
                 <div class="col-md-4 project">
                     <h3 id="counter1">0</h3>
-                    <h4>Happy Customers</h4>
+                    <h4>Chantiers en cours</h4>
                     <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit quisque tempus eget diam et. laoreet phasellus ut nisi id leo.  </p>
                 </div>
                 <div class="col-md-4 project">
@@ -76,8 +47,8 @@ defined('BASEPATH') OR exit('No direct script access allowed');
         <div class="container">
             <div class="row">
                 <div class="col-md-12 cBusiness">
-                    <h3>The Best Way to Create Business Site &ndash; Attractive One Page</h3>
-                    <h4>Discover elegant solution for your online business fast, reliable, affordable.</h4>
+                    <h3>Le meilleur choix en BTP</h3>
+                    <h4>Découvrez nos services.</h4>
                 </div>
             </div>
         </div>
@@ -431,35 +402,17 @@ defined('BASEPATH') OR exit('No direct script access allowed');
                         </div>
                     </div>          
             </div>
-            
-            
-                
-                    <div class="col-md-12 cBtn  lb" style="text-align: center;">
-                        <ul class="load_more_cont ">
-                            <li class="dowbload btn_load_more">
-                                <a href="javascript:void(0);" >
-                                    <i class="fa fa-arrow-down"></i>Load More Projects
-                                </a>
-                            </li>
-                            <li class="buy">
-                                <a href="#">
-                                    <i class="fa fa-shopping-cart"></i>Buy on Themeforest
-                                </a>
-                            </li>
-                        </ul>
-                    </div>
-            
         </div>
             
             <script type="text/javascript">
                 jQuery(window).load(function(){
                     items_set = [
                     
-                        {category : 'branding', lika_count : '77', view_count : '234', src : 'images/prettyPhotoImages/pic9.jpg', title : 'Foil Mini Badges', content : '' },
+                        {category : 'branding', lika_count : '77', view_count : '234', src : 'assets/images/prettyPhotoImages/pic9.jpg', title : 'Foil Mini Badges', content : '' },
                         
-                        {category : 'polygraphy', lika_count : '45', view_count : '100', src : 'images/prettyPhotoImages/pic7.jpg', title : 'Darko – Business Card Mock Up', content : '' },
+                        {category : 'polygraphy', lika_count : '45', view_count : '100', src : 'assets/images/prettyPhotoImages/pic7.jpg', title : 'Darko – Business Card Mock Up', content : '' },
                         
-                        {category : 'text_styles', lika_count : '22', view_count : '140', src : 'images/prettyPhotoImages/pic8.jpg', title : 'Woody Poster Text Effect', content : '' }
+                        {category : 'text_styles', lika_count : '22', view_count : '140', src : 'assets/images/prettyPhotoImages/pic8.jpg', title : 'Woody Poster Text Effect', content : '' }
                         
 
                     ];
@@ -656,10 +609,10 @@ defined('BASEPATH') OR exit('No direct script access allowed');
                 </div>
             </div>
         </div>
-        <div class="line6">
+        <!-- <div class="line6">
                     <iframe src="https://www.google.com/maps/embed?pb=!1m10!1m8!1m3!1d48386.401887313725!2d-73.9407136!3d40.7147117!3m2!1i1024!2i768!4f13.1!5e0!3m2!1sru!2sua!4v1402409149092" width="100%" height="750" frameborder="0" style="border:0"></iframe>         
-        </div>
-        <div class="container">
+        </div> -->
+        <!-- <div class="container">
             <div class="row ftext">
                 <div class="col-md-12">
                 <a id="features"></a>
@@ -673,7 +626,7 @@ defined('BASEPATH') OR exit('No direct script access allowed');
                     </ul>
             </div>
             </div>
-        </div>
+        </div> -->
         <div class="line7">
             <div class="container">
                 <div class="row footer">

@@ -80,7 +80,7 @@ display: none;
 
 #menu .active a {
 border:0;
-color:#1fcdff;
+color:#E70012;
 }
 #menu .active a:focus{
 	outline: none;
@@ -128,7 +128,7 @@ border: none;
 #menu li a:hover{
 	border:none;
 	outline:none;
-	color:#1fcdff;
+	color:#E70012;
 }
 .gallery {
 	height:500px;
@@ -138,7 +138,7 @@ border: none;
 	margin-top: 10px;
 }
 .camera_caption h2{
-	border-bottom:4px solid #1fcdff;
+	border-bottom:4px solid #E70012;
 	font-family: 'Open Sans', sans-serif;
 	font-size:100px;
 	font-weight:700;
