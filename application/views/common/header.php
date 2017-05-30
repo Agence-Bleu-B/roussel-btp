@@ -4,17 +4,43 @@ defined('BASEPATH') OR exit('No direct script access allowed');
 <!DOCTYPE html>
 <html>
 <head>
-	<meta http-equiv="Content-Type" content="text/html; charset=UTF-8"/>
+  <title>roussel btp</title>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" type="text/css" href="assets/css/bootstrap.css">
+  <link rel="stylesheet" type="text/css" href="assets/css/font-awesome.css">
+  <link rel='stylesheet' id='camera-css'  href='assets/css/camera.css' type='text/css' media='all'>
 
-	<title>roussel btp</title>
+  <link rel="stylesheet" type="text/css" href="assets/css/slicknav.css">
+  <link rel="stylesheet" href="assets/css/prettyPhoto.css" type="text/css" media="screen" title="prettyPhoto main stylesheet" charset="utf-8" />
+  <link rel="stylesheet" type="text/css" href="assets/css/style.css">
+  
+  
+  <script type="text/javascript" src="assets/js/jquery-1.8.3.min.js"></script>
 
-	<meta name="description" content="roussel btp"/>
-	<meta name="viewport" content="width=device-width, initial-scale=1">
-	<meta http-equiv="X-UA-Compatible" content="IE=Edge">
-		<!-- CSS -->
-    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
-    <link rel="stylesheet" type="text/css" href="<?php echo css_url('style');?>" />
-    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
+  <link href='http://fonts.googleapis.com/css?family=Roboto:400,300,700|Open+Sans:700' rel='stylesheet' type='text/css'>
+  <script type="text/javascript" src="assets/js/jquery.mobile.customized.min.js"></script>
+  <script type="text/javascript" src="assets/js/jquery.easing.1.3.js"></script> 
+  <script type="text/javascript" src="assets/js/camera.min.js"></script>
+  <script type="text/javascript" src="assets/js/myscript.js"></script>
+  <script src="assets/js/sorting.js" type="text/javascript"></script>
+  <script src="assets/js/jquery.isotope.js" type="text/javascript"></script>
+  <!--script type="text/javascript" src="assets/js/jquery.nav.js"></script-->
+  <script>
+    jQuery(function(){
+        jQuery('#camera_wrap_1').camera({
+        transPeriod: 500,
+        time: 3000,
+        height: '490px',
+        thumbnails: false,
+        pagination: true,
+        playPause: false,
+        loader: false,
+        navigation: false,
+        hover: false
+      });
+    });
+  </script> 
 </head>
 <body>
 
