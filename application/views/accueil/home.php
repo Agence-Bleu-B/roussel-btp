@@ -89,8 +89,8 @@ defined('BASEPATH') OR exit('No direct script access allowed');
             <div class="row">
                 <div class="col-md-12 wwa">
                     <span name="about" ></span>
-                    <h3>Who We Are? Meet Our Team!</h3>
-                    <h4>We listen, we discuss, we advise and develop. We love to learn and use the latest technologies.</h4>
+                    <h3>Qui sommes nous? Rencontrez l'équipe!</h3>
+                    <h4>Nous sommes à votre écoute pour tous vos projets.</h4>
                 </div>
             </div>
         </div>
@@ -146,67 +146,9 @@ defined('BASEPATH') OR exit('No direct script access allowed');
             </div>
         </div>      
         <div class="container">
-            <div class="row">
-                <div class="col-md-3 bar">
-                    <div class="progB chart" data-percent="64"  data-animate="3500">
-                        <div class="chart chart-content">
-                            <div class="percentage" data-percent="64">
-                              <span class="percent">64</span>
-                            </div>
-                        </div>
-                    </div>
-                    <div class="textP">
-                        <h3>WordPress</h3>
-                        <p>Nulla consectetur ornare nibh, a auctor <br/>mauris scelerisque eu proin nec urna quis. </p>
-                    </div>
-                </div>
-                <div class="col-md-3 bar">
-                    <div class="progB chart" data-percent="22"  data-animate="3500">
-                        <div class="chart chart-content">
-                            <div class="percentage" data-percent="22">
-                              <span class="percent">22</span>
-                            </div>
-                        </div>
-                    </div>
-                    <div class="textP">
-                        <h3>HTML5</h3>
-                        <p>Nulla consectetur ornare nibh, a auctor <br/>mauris scelerisque eu proin nec urna quis. </p>
-                    </div>
-                </div>
-                <div class="col-md-3 bar ">
-                    <div class="progB chart" data-percent="84"  data-animate="3500">
-                        <div class="chart chart-content">
-                            <div class="percentage" data-percent="22">
-                              <span class="percent">84</span>
-                            </div>
-                        </div>
-                    </div>
-                    <div class="textP">
-                        <h3>CSS3</h3>
-                        <p>Nulla consectetur ornare nibh, a auctor <br/>mauris scelerisque eu proin nec urna quis. </p>
-                    </div>
-                </div>
-                <div class="col-md-3 bar ">
-                    <div class="progB chart" data-percent="45"  data-animate="3500">
-                        <div class="chart chart-content">
-                            <div class="percentage" data-percent="45">
-                              <span class="percent">45</span>
-                            </div>
-                        </div>
-                    </div>
-                    <div class="textP">
-                        <h3>Woocommerce</h3>
-                        <p>Nulla consectetur ornare nibh, a auctor <br/>mauris scelerisque eu proin nec urna quis. </p>
-                    </div>
-                </div>
-            </div>
-        </div>  
-        
-        
-        <div class="container">
             <div class="row aboutUs">
                 <div class="col-md-12 ">
-                    <h3>What Our Customers Say About Us?</h3>
+                    <h3>Commentaires de nos clients :</h3>
                 </div>
             </div>
         </div>
@@ -263,8 +205,8 @@ defined('BASEPATH') OR exit('No direct script access allowed');
                 <div class="row Ama">
                     <div class="col-md-12">
                     <span name="projects" id="projectss"></span>
-                    <h3>Our Amazing Works</h3>
-                    <p>Right here we've got something you gonna love</p>
+                    <h3>Nos réalisations</h3>
+                    <p>Découvrez des chantiers réalisés par nos équippes</p>
                     </div>
                 </div>
             </div>
@@ -277,11 +219,11 @@ defined('BASEPATH') OR exit('No direct script access allowed');
             <!-- filter_block -->
                 <div id="options" class="col-md-12" style="text-align: center;">    
                     <ul id="filter" class="option-set" data-option-key="filter">
-                        <li><a class="selected" href="#filter" data-option-value="*" class="current">All Works</a></li>
-                        <li><a href="#filter" data-option-value=".polygraphy">Polygraphy</a></li>
-                        <li><a href="#filter" data-option-value=".branding">Branding</a></li>
-                        <li><a href="#filter" data-option-value=".web">Web UI</a></li>
-                        <li><a href="#filter" data-option-value=".text_styles">Text Styles</a></li>
+                        <li><a class="selected" href="#filter" data-option-value="*" class="current">Voir tous</a></li>
+                        <li><a href="#filter" data-option-value=".polygraphy">Routes</a></li>
+                        <li><a href="#filter" data-option-value=".branding">Batiments</a></li>
+                        <li><a href="#filter" data-option-value=".web">Amménagements</a></li>
+                        <li><a href="#filter" data-option-value=".text_styles">Rénovations</a></li>
                     </ul>
                 </div><!-- //filter_block -->
         

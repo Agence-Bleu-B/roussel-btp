@@ -51,13 +51,13 @@ defined('BASEPATH') OR exit('No direct script access allowed');
 						var curval=parseInt($('#counter').text());
 						var curval1=parseInt($('#counter1').text().replace(' ',''));
 						var curval2=parseInt($('#counter2').text());
-						if(curval<=707){
+						if(curval<707){
 							$('#counter').text(curval+1);
 						}
-						if(curval1<=12280){
-							$('#counter1').text(sdf_FTS((curval1+20),0,' '));
+						if(curval1<40){
+							$('#counter1').text(sdf_FTS((curval1+1),0,' '));
 						}
-						if(curval2<=245){
+						if(curval2<245){
 							$('#counter2').text(curval2+1);
 						}
 					}, 2);
