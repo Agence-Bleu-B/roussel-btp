@@ -16,16 +16,17 @@ defined('BASEPATH') OR exit('No direct script access allowed');
 <body>
   <div class="container-fluid">
     <div class="row">
-        <nav class="navbar navbar-default" role="navigation">
-          <div class="navbar-header">
+        <nav class="navbar navbar-inverse" role="navigation">
+          <div class="container"><div class="navbar-header">
              
             <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1">
                <span class="sr-only">Toggle navigation</span><span class="icon-bar"></span><span class="icon-bar"></span><span class="icon-bar"></span>
-            </button> <a class="navbar-brand" href="#">  </a>
+            </button> 
+            <a class="navbar-brand" href="#"><img class="img-responsive" src="<?php echo img_url('logo.jpg'); ?>">  </a>
           </div>
           
           <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
-            <ul class="nav navbar-nav">
+            <!-- <ul class="nav navbar-nav">
               <li class="active">
                 <a href="#">Link</a>
               </li>
@@ -64,7 +65,7 @@ defined('BASEPATH') OR exit('No direct script access allowed');
               <button type="submit" class="btn btn-default">
                 Submit
               </button>
-            </form>
+            </form> -->
             <ul class="nav navbar-nav navbar-right">
               <li>
                 <a href="#">Link</a>
@@ -89,7 +90,7 @@ defined('BASEPATH') OR exit('No direct script access allowed');
                 </ul>
               </li>
             </ul>
-          </div>
+          </div></div>
           
         </nav>
     </div>

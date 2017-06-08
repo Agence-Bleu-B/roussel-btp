@@ -1,14 +1,18 @@
-
+/* polices */
 
 /*navbar*/
 .navbar-brand { 
-	margin-left: 50px;
-  width: 80px;
-  height: 80px;
-  background: url('../images/logo.jpg') no-repeat center center;
-  background-size: 80px;  
+	/*margin-left: 100px;*/
+  	width: 80px;
+  	height: 80px;
+  	/*background: url('../images/logo.jpg') no-repeat center center;
+  	background-size: 80px;  */
+}
+.navbar-brand img{
+	width: 80px;
+  	/*height: 80px;*/
 }
 /*page d'accueil*/
 .home-img{
-	margin-top: -50px;
+	margin-top: -80px;
 }
