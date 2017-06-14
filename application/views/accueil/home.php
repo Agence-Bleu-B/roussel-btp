@@ -98,14 +98,14 @@
 		</div>
 		<div class="row jumbotron">
 		    <div id="owl-demo">       
-		      <div class="item"><img src="http://via.placeholder.com/150x100" alt="Owl Image"></div>
-		      <div class="item"><img src="http://via.placeholder.com/150x100" alt="Owl Image"></div>
-		      <div class="item"><img src="http://via.placeholder.com/150x100" alt="Owl Image"></div>
-		      <div class="item"><img src="http://via.placeholder.com/150x100" alt="Owl Image"></div>
-		      <div class="item"><img src="http://via.placeholder.com/150x100" alt="Owl Image"></div>
-		      <div class="item"><img src="http://via.placeholder.com/150x100" alt="Owl Image"></div>
-		      <div class="item"><img src="http://via.placeholder.com/150x100" alt="Owl Image"></div>
-		      <div class="item"><img src="http://via.placeholder.com/150x100" alt="Owl Image"></div>
+		      <div class="item"><img src="http://via.placeholder.com/100x50" alt="Owl Image"></div>
+		      <div class="item"><img src="http://via.placeholder.com/100x50" alt="Owl Image"></div>
+		      <div class="item"><img src="http://via.placeholder.com/100x50" alt="Owl Image"></div>
+		      <div class="item"><img src="http://via.placeholder.com/100x50" alt="Owl Image"></div>
+		      <div class="item"><img src="http://via.placeholder.com/100x50" alt="Owl Image"></div>
+		      <div class="item"><img src="http://via.placeholder.com/100x50" alt="Owl Image"></div>
+		      <div class="item"><img src="http://via.placeholder.com/100x50" alt="Owl Image"></div>
+		      <div class="item"><img src="http://via.placeholder.com/100x50" alt="Owl Image"></div>
 		    </div>
 		</div>
 	</div>
